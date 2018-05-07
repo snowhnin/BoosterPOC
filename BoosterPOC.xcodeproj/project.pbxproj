@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191557C01E46AB16005ECEC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191557BF1E46AB16005ECEC9 /* AppDelegate.swift */; };
+		191557C21E46AB16005ECEC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191557C11E46AB16005ECEC9 /* ViewController.swift */; };
+		191557C51E46AB16005ECEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191557C31E46AB16005ECEC9 /* Main.storyboard */; };
+		191557C71E46AB16005ECEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191557C61E46AB16005ECEC9 /* Assets.xcassets */; };
+		191557CA1E46AB16005ECEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191557C81E46AB16005ECEC9 /* LaunchScreen.storyboard */; };
+		191557D51E46AB16005ECEC9 /* BoosterPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191557D41E46AB16005ECEC9 /* BoosterPOCTests.swift */; };
+		191557E01E46AB16005ECEC9 /* BoosterPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191557DF1E46AB16005ECEC9 /* BoosterPOCUITests.swift */; };
+		191557F31E46B381005ECEC9 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191557F21E46B381005ECEC9 /* SideBarTableViewController.swift */; };
+		191557F51E46BB2B005ECEC9 /* InvestorTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191557F41E46BB2B005ECEC9 /* InvestorTypeViewController.swift */; };
+		191557F71E46DD1A005ECEC9 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191557F61E46DD1A005ECEC9 /* MainScreenViewController.swift */; };
+		191558071E46E860005ECEC9 /* QuestionnaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191558061E46E860005ECEC9 /* QuestionnaireViewController.swift */; };
+		1915580D1E472961005ECEC9 /* TypeMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1915580C1E472961005ECEC9 /* TypeMap.swift */; };
+		1915580F1E473678005ECEC9 /* TotalScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1915580E1E473678005ECEC9 /* TotalScoreViewController.swift */; };
+		191558131E4820C0005ECEC9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191558121E4820C0005ECEC9 /* Constants.swift */; };
+		191558181E483631005ECEC9 /* Questionnaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191558151E483631005ECEC9 /* Questionnaire.swift */; };
+		191558191E483631005ECEC9 /* SumitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191558161E483631005ECEC9 /* SumitViewController.swift */; };
+		1915581A1E483631005ECEC9 /* UserAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191558171E483631005ECEC9 /* UserAnswer.swift */; };
+		191558211E483670005ECEC9 /* aggressivegrowth.html in Resources */ = {isa = PBXBuildFile; fileRef = 1915581B1E483670005ECEC9 /* aggressivegrowth.html */; };
+		191558221E483670005ECEC9 /* balanced.html in Resources */ = {isa = PBXBuildFile; fileRef = 1915581C1E483670005ECEC9 /* balanced.html */; };
+		191558231E483670005ECEC9 /* balancedgrowth.html in Resources */ = {isa = PBXBuildFile; fileRef = 1915581D1E483670005ECEC9 /* balancedgrowth.html */; };
+		191558241E483670005ECEC9 /* conservative.html in Resources */ = {isa = PBXBuildFile; fileRef = 1915581E1E483670005ECEC9 /* conservative.html */; };
+		191558251E483670005ECEC9 /* defensive.html in Resources */ = {isa = PBXBuildFile; fileRef = 1915581F1E483670005ECEC9 /* defensive.html */; };
+		191558261E483670005ECEC9 /* growth.html in Resources */ = {isa = PBXBuildFile; fileRef = 191558201E483670005ECEC9 /* growth.html */; };
+		1915582D1E483738005ECEC9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1915582C1E483738005ECEC9 /* SWRevealViewController.m */; };
+		191558301E4837E6005ECEC9 /* booster-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1915582F1E4837E6005ECEC9 /* booster-logo.jpg */; };
+		191558321E483899005ECEC9 /* booster-logo-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 191558311E483899005ECEC9 /* booster-logo-small.jpg */; };
+		191558381E483C1D005ECEC9 /* balanced.png in Resources */ = {isa = PBXBuildFile; fileRef = 191558331E483C1D005ECEC9 /* balanced.png */; };
+		191558391E483C1D005ECEC9 /* balancedgrowth.png in Resources */ = {isa = PBXBuildFile; fileRef = 191558341E483C1D005ECEC9 /* balancedgrowth.png */; };
+		1915583A1E483C1D005ECEC9 /* conservative.png in Resources */ = {isa = PBXBuildFile; fileRef = 191558351E483C1D005ECEC9 /* conservative.png */; };
+		1915583B1E483C1D005ECEC9 /* defensive.png in Resources */ = {isa = PBXBuildFile; fileRef = 191558361E483C1D005ECEC9 /* defensive.png */; };
+		1915583C1E483C1D005ECEC9 /* growth.png in Resources */ = {isa = PBXBuildFile; fileRef = 191558371E483C1D005ECEC9 /* growth.png */; };
+		1915583E1E4864F7005ECEC9 /* high-growth-fund-pie-graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 1915583D1E4864F7005ECEC9 /* high-growth-fund-pie-graph.png */; };
+		191558401E486879005ECEC9 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1915583F1E486879005ECEC9 /* style.css */; };
+		191558431E486B6D005ECEC9 /* balanced-fund-growth-and-income.png in Resources */ = {isa = PBXBuildFile; fileRef = 191558411E486B6D005ECEC9 /* balanced-fund-growth-and-income.png */; };
+		191558441E486B6D005ECEC9 /* balanced-fund-pie-graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 191558421E486B6D005ECEC9 /* balanced-fund-pie-graph.png */; };
+		191558461E486BB1005ECEC9 /* high-growth-fund-growth-and-income.png in Resources */ = {isa = PBXBuildFile; fileRef = 191558451E486BB1005ECEC9 /* high-growth-fund-growth-and-income.png */; };
+		191558491E486E7E005ECEC9 /* defensive-fund-growth-and-income.png in Resources */ = {isa = PBXBuildFile; fileRef = 191558471E486E7E005ECEC9 /* defensive-fund-growth-and-income.png */; };
+		1915584A1E486E7E005ECEC9 /* defensive-fund-pie-graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 191558481E486E7E005ECEC9 /* defensive-fund-pie-graph.png */; };
+		1915584D1E48717B005ECEC9 /* growth-fund-growth-and-income.png in Resources */ = {isa = PBXBuildFile; fileRef = 1915584B1E48717B005ECEC9 /* growth-fund-growth-and-income.png */; };
+		1915584E1E48717B005ECEC9 /* growth-fund-pie-graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 1915584C1E48717B005ECEC9 /* growth-fund-pie-graph.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		191557D11E46AB16005ECEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 191557B41E46AB16005ECEC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 191557BB1E46AB16005ECEC9;
+			remoteInfo = BoosterPOC;
+		};
+		191557DC1E46AB16005ECEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 191557B41E46AB16005ECEC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 191557BB1E46AB16005ECEC9;
+			remoteInfo = BoosterPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		191557BC1E46AB16005ECEC9 /* BoosterPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoosterPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		191557BF1E46AB16005ECEC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		191557C11E46AB16005ECEC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		191557C41E46AB16005ECEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		191557C61E46AB16005ECEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		191557C91E46AB16005ECEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		191557CB1E46AB16005ECEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191557D01E46AB16005ECEC9 /* BoosterPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoosterPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		191557D41E46AB16005ECEC9 /* BoosterPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoosterPOCTests.swift; sourceTree = "<group>"; };
+		191557D61E46AB16005ECEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191557DB1E46AB16005ECEC9 /* BoosterPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoosterPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		191557DF1E46AB16005ECEC9 /* BoosterPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoosterPOCUITests.swift; sourceTree = "<group>"; };
+		191557E11E46AB16005ECEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191557F21E46B381005ECEC9 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		191557F41E46BB2B005ECEC9 /* InvestorTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestorTypeViewController.swift; sourceTree = "<group>"; };
+		191557F61E46DD1A005ECEC9 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		191558061E46E860005ECEC9 /* QuestionnaireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireViewController.swift; sourceTree = "<group>"; };
+		1915580C1E472961005ECEC9 /* TypeMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeMap.swift; sourceTree = "<group>"; };
+		1915580E1E473678005ECEC9 /* TotalScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalScoreViewController.swift; sourceTree = "<group>"; };
+		191558121E4820C0005ECEC9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		191558151E483631005ECEC9 /* Questionnaire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questionnaire.swift; sourceTree = "<group>"; };
+		191558161E483631005ECEC9 /* SumitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumitViewController.swift; sourceTree = "<group>"; };
+		191558171E483631005ECEC9 /* UserAnswer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAnswer.swift; sourceTree = "<group>"; };
+		1915581B1E483670005ECEC9 /* aggressivegrowth.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aggressivegrowth.html; sourceTree = "<group>"; };
+		1915581C1E483670005ECEC9 /* balanced.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = balanced.html; sourceTree = "<group>"; };
+		1915581D1E483670005ECEC9 /* balancedgrowth.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = balancedgrowth.html; sourceTree = "<group>"; };
+		1915581E1E483670005ECEC9 /* conservative.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = conservative.html; sourceTree = "<group>"; };
+		1915581F1E483670005ECEC9 /* defensive.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = defensive.html; sourceTree = "<group>"; };
+		191558201E483670005ECEC9 /* growth.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = growth.html; sourceTree = "<group>"; };
+		1915582B1E483738005ECEC9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		1915582C1E483738005ECEC9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		1915582E1E483755005ECEC9 /* BoosterPOC-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BoosterPOC-Bridging-Header.h"; sourceTree = "<group>"; };
+		1915582F1E4837E6005ECEC9 /* booster-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "booster-logo.jpg"; sourceTree = "<group>"; };
+		191558311E483899005ECEC9 /* booster-logo-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "booster-logo-small.jpg"; sourceTree = "<group>"; };
+		191558331E483C1D005ECEC9 /* balanced.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balanced.png; sourceTree = "<group>"; };
+		191558341E483C1D005ECEC9 /* balancedgrowth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balancedgrowth.png; sourceTree = "<group>"; };
+		191558351E483C1D005ECEC9 /* conservative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conservative.png; sourceTree = "<group>"; };
+		191558361E483C1D005ECEC9 /* defensive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defensive.png; sourceTree = "<group>"; };
+		191558371E483C1D005ECEC9 /* growth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = growth.png; sourceTree = "<group>"; };
+		1915583D1E4864F7005ECEC9 /* high-growth-fund-pie-graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "high-growth-fund-pie-graph.png"; sourceTree = "<group>"; };
+		1915583F1E486879005ECEC9 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		191558411E486B6D005ECEC9 /* balanced-fund-growth-and-income.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balanced-fund-growth-and-income.png"; sourceTree = "<group>"; };
+		191558421E486B6D005ECEC9 /* balanced-fund-pie-graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balanced-fund-pie-graph.png"; sourceTree = "<group>"; };
+		191558451E486BB1005ECEC9 /* high-growth-fund-growth-and-income.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "high-growth-fund-growth-and-income.png"; sourceTree = "<group>"; };
+		191558471E486E7E005ECEC9 /* defensive-fund-growth-and-income.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defensive-fund-growth-and-income.png"; sourceTree = "<group>"; };
+		191558481E486E7E005ECEC9 /* defensive-fund-pie-graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defensive-fund-pie-graph.png"; sourceTree = "<group>"; };
+		1915584B1E48717B005ECEC9 /* growth-fund-growth-and-income.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "growth-fund-growth-and-income.png"; sourceTree = "<group>"; };
+		1915584C1E48717B005ECEC9 /* growth-fund-pie-graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "growth-fund-pie-graph.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		191557B91E46AB16005ECEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191557CD1E46AB16005ECEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191557D81E46AB16005ECEC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191557B31E46AB16005ECEC9 = {
+			isa = PBXGroup;
+			children = (
+				1915582E1E483755005ECEC9 /* BoosterPOC-Bridging-Header.h */,
+				191557BE1E46AB16005ECEC9 /* BoosterPOC */,
+				191557D31E46AB16005ECEC9 /* BoosterPOCTests */,
+				191557DE1E46AB16005ECEC9 /* BoosterPOCUITests */,
+				191557BD1E46AB16005ECEC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		191557BD1E46AB16005ECEC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				191557BC1E46AB16005ECEC9 /* BoosterPOC.app */,
+				191557D01E46AB16005ECEC9 /* BoosterPOCTests.xctest */,
+				191557DB1E46AB16005ECEC9 /* BoosterPOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		191557BE1E46AB16005ECEC9 /* BoosterPOC */ = {
+			isa = PBXGroup;
+			children = (
+				191558331E483C1D005ECEC9 /* balanced.png */,
+				191558341E483C1D005ECEC9 /* balancedgrowth.png */,
+				191558351E483C1D005ECEC9 /* conservative.png */,
+				191558361E483C1D005ECEC9 /* defensive.png */,
+				191558371E483C1D005ECEC9 /* growth.png */,
+				191558311E483899005ECEC9 /* booster-logo-small.jpg */,
+				1915582F1E4837E6005ECEC9 /* booster-logo.jpg */,
+				191557FA1E46DFC5005ECEC9 /* WebPages */,
+				191557BF1E46AB16005ECEC9 /* AppDelegate.swift */,
+				191557C11E46AB16005ECEC9 /* ViewController.swift */,
+				191557C31E46AB16005ECEC9 /* Main.storyboard */,
+				191557C61E46AB16005ECEC9 /* Assets.xcassets */,
+				191557C81E46AB16005ECEC9 /* LaunchScreen.storyboard */,
+				191557CB1E46AB16005ECEC9 /* Info.plist */,
+				191557ED1E46AD93005ECEC9 /* SWRevealViewController */,
+				191557F21E46B381005ECEC9 /* SideBarTableViewController.swift */,
+				191557F41E46BB2B005ECEC9 /* InvestorTypeViewController.swift */,
+				191557F61E46DD1A005ECEC9 /* MainScreenViewController.swift */,
+				191558061E46E860005ECEC9 /* QuestionnaireViewController.swift */,
+				1915580C1E472961005ECEC9 /* TypeMap.swift */,
+				191558151E483631005ECEC9 /* Questionnaire.swift */,
+				191558161E483631005ECEC9 /* SumitViewController.swift */,
+				191558171E483631005ECEC9 /* UserAnswer.swift */,
+				1915580E1E473678005ECEC9 /* TotalScoreViewController.swift */,
+				191558121E4820C0005ECEC9 /* Constants.swift */,
+			);
+			path = BoosterPOC;
+			sourceTree = "<group>";
+		};
+		191557D31E46AB16005ECEC9 /* BoosterPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				191557D41E46AB16005ECEC9 /* BoosterPOCTests.swift */,
+				191557D61E46AB16005ECEC9 /* Info.plist */,
+			);
+			path = BoosterPOCTests;
+			sourceTree = "<group>";
+		};
+		191557DE1E46AB16005ECEC9 /* BoosterPOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				191557DF1E46AB16005ECEC9 /* BoosterPOCUITests.swift */,
+				191557E11E46AB16005ECEC9 /* Info.plist */,
+			);
+			path = BoosterPOCUITests;
+			sourceTree = "<group>";
+		};
+		191557ED1E46AD93005ECEC9 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1915582B1E483738005ECEC9 /* SWRevealViewController.h */,
+				1915582C1E483738005ECEC9 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		191557FA1E46DFC5005ECEC9 /* WebPages */ = {
+			isa = PBXGroup;
+			children = (
+				1915584B1E48717B005ECEC9 /* growth-fund-growth-and-income.png */,
+				1915584C1E48717B005ECEC9 /* growth-fund-pie-graph.png */,
+				191558471E486E7E005ECEC9 /* defensive-fund-growth-and-income.png */,
+				191558481E486E7E005ECEC9 /* defensive-fund-pie-graph.png */,
+				191558451E486BB1005ECEC9 /* high-growth-fund-growth-and-income.png */,
+				191558411E486B6D005ECEC9 /* balanced-fund-growth-and-income.png */,
+				191558421E486B6D005ECEC9 /* balanced-fund-pie-graph.png */,
+				1915583F1E486879005ECEC9 /* style.css */,
+				1915583D1E4864F7005ECEC9 /* high-growth-fund-pie-graph.png */,
+				1915581B1E483670005ECEC9 /* aggressivegrowth.html */,
+				1915581C1E483670005ECEC9 /* balanced.html */,
+				1915581D1E483670005ECEC9 /* balancedgrowth.html */,
+				1915581E1E483670005ECEC9 /* conservative.html */,
+				1915581F1E483670005ECEC9 /* defensive.html */,
+				191558201E483670005ECEC9 /* growth.html */,
+			);
+			name = WebPages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		191557BB1E46AB16005ECEC9 /* BoosterPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191557E41E46AB16005ECEC9 /* Build configuration list for PBXNativeTarget "BoosterPOC" */;
+			buildPhases = (
+				191557B81E46AB16005ECEC9 /* Sources */,
+				191557B91E46AB16005ECEC9 /* Frameworks */,
+				191557BA1E46AB16005ECEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoosterPOC;
+			productName = BoosterPOC;
+			productReference = 191557BC1E46AB16005ECEC9 /* BoosterPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		191557CF1E46AB16005ECEC9 /* BoosterPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191557E71E46AB16005ECEC9 /* Build configuration list for PBXNativeTarget "BoosterPOCTests" */;
+			buildPhases = (
+				191557CC1E46AB16005ECEC9 /* Sources */,
+				191557CD1E46AB16005ECEC9 /* Frameworks */,
+				191557CE1E46AB16005ECEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				191557D21E46AB16005ECEC9 /* PBXTargetDependency */,
+			);
+			name = BoosterPOCTests;
+			productName = BoosterPOCTests;
+			productReference = 191557D01E46AB16005ECEC9 /* BoosterPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		191557DA1E46AB16005ECEC9 /* BoosterPOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191557EA1E46AB16005ECEC9 /* Build configuration list for PBXNativeTarget "BoosterPOCUITests" */;
+			buildPhases = (
+				191557D71E46AB16005ECEC9 /* Sources */,
+				191557D81E46AB16005ECEC9 /* Frameworks */,
+				191557D91E46AB16005ECEC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				191557DD1E46AB16005ECEC9 /* PBXTargetDependency */,
+			);
+			name = BoosterPOCUITests;
+			productName = BoosterPOCUITests;
+			productReference = 191557DB1E46AB16005ECEC9 /* BoosterPOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		191557B41E46AB16005ECEC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HninLaiWaiOo;
+				TargetAttributes = {
+					191557BB1E46AB16005ECEC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5D7542DC3Q;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					191557CF1E46AB16005ECEC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 191557BB1E46AB16005ECEC9;
+					};
+					191557DA1E46AB16005ECEC9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 191557BB1E46AB16005ECEC9;
+					};
+				};
+			};
+			buildConfigurationList = 191557B71E46AB16005ECEC9 /* Build configuration list for PBXProject "BoosterPOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 191557B31E46AB16005ECEC9;
+			productRefGroup = 191557BD1E46AB16005ECEC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				191557BB1E46AB16005ECEC9 /* BoosterPOC */,
+				191557CF1E46AB16005ECEC9 /* BoosterPOCTests */,
+				191557DA1E46AB16005ECEC9 /* BoosterPOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		191557BA1E46AB16005ECEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191558221E483670005ECEC9 /* balanced.html in Resources */,
+				191558431E486B6D005ECEC9 /* balanced-fund-growth-and-income.png in Resources */,
+				191558401E486879005ECEC9 /* style.css in Resources */,
+				191558381E483C1D005ECEC9 /* balanced.png in Resources */,
+				1915583E1E4864F7005ECEC9 /* high-growth-fund-pie-graph.png in Resources */,
+				191558301E4837E6005ECEC9 /* booster-logo.jpg in Resources */,
+				191558491E486E7E005ECEC9 /* defensive-fund-growth-and-income.png in Resources */,
+				191557CA1E46AB16005ECEC9 /* LaunchScreen.storyboard in Resources */,
+				191558461E486BB1005ECEC9 /* high-growth-fund-growth-and-income.png in Resources */,
+				191558251E483670005ECEC9 /* defensive.html in Resources */,
+				191558441E486B6D005ECEC9 /* balanced-fund-pie-graph.png in Resources */,
+				1915584A1E486E7E005ECEC9 /* defensive-fund-pie-graph.png in Resources */,
+				191558261E483670005ECEC9 /* growth.html in Resources */,
+				191558391E483C1D005ECEC9 /* balancedgrowth.png in Resources */,
+				1915583B1E483C1D005ECEC9 /* defensive.png in Resources */,
+				1915584E1E48717B005ECEC9 /* growth-fund-pie-graph.png in Resources */,
+				1915583C1E483C1D005ECEC9 /* growth.png in Resources */,
+				191558241E483670005ECEC9 /* conservative.html in Resources */,
+				1915583A1E483C1D005ECEC9 /* conservative.png in Resources */,
+				191557C71E46AB16005ECEC9 /* Assets.xcassets in Resources */,
+				1915584D1E48717B005ECEC9 /* growth-fund-growth-and-income.png in Resources */,
+				191558231E483670005ECEC9 /* balancedgrowth.html in Resources */,
+				191558321E483899005ECEC9 /* booster-logo-small.jpg in Resources */,
+				191557C51E46AB16005ECEC9 /* Main.storyboard in Resources */,
+				191558211E483670005ECEC9 /* aggressivegrowth.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191557CE1E46AB16005ECEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191557D91E46AB16005ECEC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		191557B81E46AB16005ECEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1915582D1E483738005ECEC9 /* SWRevealViewController.m in Sources */,
+				191557F31E46B381005ECEC9 /* SideBarTableViewController.swift in Sources */,
+				191558191E483631005ECEC9 /* SumitViewController.swift in Sources */,
+				1915581A1E483631005ECEC9 /* UserAnswer.swift in Sources */,
+				191557C21E46AB16005ECEC9 /* ViewController.swift in Sources */,
+				191558181E483631005ECEC9 /* Questionnaire.swift in Sources */,
+				191557C01E46AB16005ECEC9 /* AppDelegate.swift in Sources */,
+				191558071E46E860005ECEC9 /* QuestionnaireViewController.swift in Sources */,
+				191557F51E46BB2B005ECEC9 /* InvestorTypeViewController.swift in Sources */,
+				1915580F1E473678005ECEC9 /* TotalScoreViewController.swift in Sources */,
+				191558131E4820C0005ECEC9 /* Constants.swift in Sources */,
+				1915580D1E472961005ECEC9 /* TypeMap.swift in Sources */,
+				191557F71E46DD1A005ECEC9 /* MainScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191557CC1E46AB16005ECEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191557D51E46AB16005ECEC9 /* BoosterPOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191557D71E46AB16005ECEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191557E01E46AB16005ECEC9 /* BoosterPOCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		191557D21E46AB16005ECEC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 191557BB1E46AB16005ECEC9 /* BoosterPOC */;
+			targetProxy = 191557D11E46AB16005ECEC9 /* PBXContainerItemProxy */;
+		};
+		191557DD1E46AB16005ECEC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 191557BB1E46AB16005ECEC9 /* BoosterPOC */;
+			targetProxy = 191557DC1E46AB16005ECEC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		191557C31E46AB16005ECEC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191557C41E46AB16005ECEC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		191557C81E46AB16005ECEC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191557C91E46AB16005ECEC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		191557E21E46AB16005ECEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		191557E31E46AB16005ECEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		191557E51E46AB16005ECEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5D7542DC3Q;
+				INFOPLIST_FILE = BoosterPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlwo.BoosterPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BoosterPOC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		191557E61E46AB16005ECEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 5D7542DC3Q;
+				INFOPLIST_FILE = BoosterPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlwo.BoosterPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BoosterPOC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		191557E81E46AB16005ECEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoosterPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlwo.BoosterPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoosterPOC.app/BoosterPOC";
+			};
+			name = Debug;
+		};
+		191557E91E46AB16005ECEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BoosterPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlwo.BoosterPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoosterPOC.app/BoosterPOC";
+			};
+			name = Release;
+		};
+		191557EB1E46AB16005ECEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BoosterPOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlwo.BoosterPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BoosterPOC;
+			};
+			name = Debug;
+		};
+		191557EC1E46AB16005ECEC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BoosterPOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hlwo.BoosterPOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BoosterPOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		191557B71E46AB16005ECEC9 /* Build configuration list for PBXProject "BoosterPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191557E21E46AB16005ECEC9 /* Debug */,
+				191557E31E46AB16005ECEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		191557E41E46AB16005ECEC9 /* Build configuration list for PBXNativeTarget "BoosterPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191557E51E46AB16005ECEC9 /* Debug */,
+				191557E61E46AB16005ECEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		191557E71E46AB16005ECEC9 /* Build configuration list for PBXNativeTarget "BoosterPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191557E81E46AB16005ECEC9 /* Debug */,
+				191557E91E46AB16005ECEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		191557EA1E46AB16005ECEC9 /* Build configuration list for PBXNativeTarget "BoosterPOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191557EB1E46AB16005ECEC9 /* Debug */,
+				191557EC1E46AB16005ECEC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 191557B41E46AB16005ECEC9 /* Project object */;
+}
